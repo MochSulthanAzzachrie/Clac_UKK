@@ -338,7 +338,7 @@ export const StandardCalcLogic = () => {
     } else if (op === "x²") {
       setExpression(`(${formattedOperand})²`);
       newValue = newValue ** 2;
-    } else if (op === "√x") {
+    } else if (op === "²√x") {
       if (newValue < 0) {
         setDisplay("Cannot divide by zero");
         return;
