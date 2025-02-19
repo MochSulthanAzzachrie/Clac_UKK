@@ -1,0 +1,29 @@
+.no-hover-outline:hover,
+.no-hover-outline:focus {
+  outline: none;
+  border-color: none;
+}
+
+.reset-button {
+  all: unset;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.over::-webkit-scrollbar {
+  width: 6px;
+}
+
+.over::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.over::-webkit-scrollbar-thumb {
+  background-color: rgba(64, 64, 64, 0.75);
+  border-radius: 3px;
+}
+
+.over {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(64, 64, 64, 0.75) transparent;
+}
